@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 1rem 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            padding: 2rem;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать!</h1>
+    </header>
+    <main>
+        <p>Это простой сайт, опубликованный с помощью GitHub Pages.</p>
+        <button onclick="sayHello()">Нажми меня</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Простой сайт</p>
+    </footer>
+    <script>
+        function sayHello() {
+            alert('Привет! Вы нажали на кнопку.');
+        }
+    </script>
+</body>
+</html>
